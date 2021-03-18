@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <b-container>
     <app-layout-header/>
     Main Layout
     <router-view/>
 
     <app-layout-footer/>
-  </div>
+  </b-container>
 </template>
 
 <script>

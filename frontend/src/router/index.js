@@ -10,13 +10,24 @@ const routes = [{
   name: 'main',
   component: Layout,
   children: [{
+    path: '',
+    redirect: '/hello'
+  }, {
     path: 'hello',
-    name: 'HelloWorld',
+    name: 'hello',
     component: () => import('@/components/HelloWorld')
   }, {
     path: 'cho',
-    name: 'HelloWorld',
+    name: 'cho',
     component: () => import('@/components/Cho')
+  }, {
+    path: 'vuex01',
+    name: 'vuex01',
+    component: () => import('@/components/vuex01')
+  }, {
+    path: 'vuex02',
+    name: 'vuex02',
+    component: () => import('@/components/vuex02')
   }, {
     path: '*',
     component: NotFound

@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="bg-info text-white p-2">
     Header
   </div>
 </template>
 
 <script>
 export default {
-  name: 'header'
+  name: 'headerLayer'
 }
 </script>
