@@ -16,6 +16,6 @@ public class UserVO {
     private String createDate;
     private String updateDate;
 
-    private DeptVO deptVO;
+    private DeptVO deptInfo;
 
 }
